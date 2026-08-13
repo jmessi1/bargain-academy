@@ -1,0 +1,283 @@
+window.SOP_MODULES.push({
+  id: 'damaged-material-claims',
+
+  title: {
+    en: 'Damaged Material & Claims',
+    es: 'Material Dañado y Reclamaciones'
+  },
+
+  summary: {
+    en: 'Identify, photograph, isolate, report, and properly resolve damaged material while preserving inventory accuracy and claim evidence.',
+    es: 'Identifique, fotografíe, aísle, reporte y resuelva correctamente el material dañado mientras protege la exactitud del inventario y la evidencia para reclamaciones.'
+  },
+
+  sections: {
+    en: [
+      [
+        'Core workflow',
+        'Identify → Photograph → Isolate → Report → Determine Disposition → Correct Inventory if Authorized.'
+      ],
+      [
+        'Non-negotiable standards',
+        'Never conceal damage. Do not return damaged material to sellable inventory without approval. Do not discard material connected to an open vendor or freight claim without authorization. Employees may not independently promise customers refunds, replacements, discounts, or store credit.'
+      ],
+      [
+        'Assess facts',
+        'Identify SKU, product, quantity, and related order number. Describe observable damage. When the cause cannot reasonably be established, document facts rather than assigning blame.'
+      ],
+      [
+        'Photographs',
+        'Photograph the overall product, close-up damage, SKU/label, shipment and shipping label when applicable. For freight damage, photograph before breaking down the load when practical and safe. No separate damage inspection form is required.'
+      ],
+      [
+        'HOLD – DAMAGED MATERIAL',
+        'Each location will maintain a designated physical area for damaged material that is waiting for management review or final disposition. This area will be identified as HOLD – DAMAGED MATERIAL. When practical, employees should move damaged material to this area so it is physically separated from normal sellable inventory. Material in this area is NOT AVAILABLE FOR SALE unless a manager later approves it for return to sellable inventory. When practical, identify the material with useful information such as SKU, quantity, related order number, date, and reason it is being held.'
+      ],
+      [
+        'Vendor / PO damage',
+        'Do not receive a damaged shipment as though everything arrived correctly. Photograph and isolate affected material, identify SKU and quantity, retain relevant packaging when practical, notify the Director of Procurement, provide PO/supporting information, and follow Procurement direction for QOBLEX receiving.'
+      ],
+      [
+        'Claims documentation',
+        'Procurement may manage vendor and freight claims using photographs, email, PO information, packing slips, Bills of Lading, vendor communication, claim references, credits, replacement information, and other records appropriate to the situation. No separate claims form is required. Keep claim material available until Procurement authorizes disposition.'
+      ],
+      [
+        'Transfer damage',
+        'Photograph and document affected material, notify the originating Warehouse Manager and Inventory Manager, and follow the Inventory Transfer procedure. Do not automatically assign blame or simply absorb the loss.'
+      ],
+      [
+        'Warehouse-caused damage',
+        'Accidental damage must be reported immediately. Damage identified → photographed → isolated → reported → disposition determined → inventory corrected if authorized. Accidents can happen; knowingly concealing or failing to report known damage is a separate compliance issue.'
+      ],
+      [
+        'Order picking',
+        'Do not knowingly provide damaged material to a customer just to complete an order. Separate it, check for replacement inventory, notify the Warehouse Manager, document it, and move damaged material to HOLD.'
+      ],
+      [
+        'Delivery damage',
+        'Stop handling affected material, photograph it, notify the branch, make no unauthorized customer promise, document the issue on existing delivery paperwork, and follow branch instructions and the Delivery Procedure SOP.'
+      ],
+      [
+        'Customer-reported damage',
+        'Gather customer/order/product details, description of damage, photos when available, pickup/delivery status, and discovery timing. Do not immediately assume company or customer responsibility. Management reviews the facts and follows the Returns SOP when customer resolution is needed.'
+      ],
+      [
+        'Final disposition',
+        'Possible outcomes include return to vendor, vendor credit, replacement, freight claim, approved return to sellable inventory, discount/as-is sale, company use, disposal, or customer resolution. Warehouse employees and Sales Associates do not independently determine final disposition unless authorized.'
+      ],
+      [
+        'Inventory adjustments',
+        'Physical damage does NOT automatically authorize an inventory adjustment. Adjust only after disposition is determined and authorization exists. Follow Inventory Adjustments & IAL.'
+      ],
+      [
+        'Escalation',
+        'Immediately escalate significant losses, repeated vendor/carrier damage, customer property damage, vehicle accidents, employee injury, disputed responsibility, suspected intentional damage, large inventory discrepancies, and safety hazards.'
+      ],
+      [
+        'Related SOPs',
+        'Receiving Purchase Orders; Receiving Inventory Transfers; Creating & Dispatching Inventory Transfers; Inventory Adjustments & IAL; Order Picking SOP; Delivery Procedure SOP; Customer Returns, Store Credits & Refund Authorization SOP.'
+      ]
+    ],
+
+    es: [
+      [
+        'Flujo principal',
+        'Identificar → Fotografiar → Aislar → Reportar → Determinar disposición → Corregir inventario si está autorizado.'
+      ],
+      [
+        'Normas no negociables',
+        'Nunca oculte daños. No devuelva material dañado a inventario vendible sin aprobación. No deseche material relacionado con una reclamación abierta de proveedor o flete sin autorización. Los empleados no pueden prometer independientemente reembolsos, reemplazos, descuentos o crédito de tienda.'
+      ],
+      [
+        'Evalúe los hechos',
+        'Identifique SKU, producto, cantidad y número de pedido relacionado. Describa el daño observable. Cuando la causa no pueda establecerse razonablemente, documente hechos en lugar de asignar culpa.'
+      ],
+      [
+        'Fotografías',
+        'Fotografíe producto completo, acercamiento del daño, SKU/etiqueta, envío y shipping label cuando corresponda. Para daño de flete, fotografíe antes de desarmar la carga cuando sea práctico y seguro. No se requiere formulario separado de inspección.'
+      ],
+      [
+        'HOLD – DAMAGED MATERIAL',
+        'Cada ubicación mantendrá un área física designada para material dañado que esté esperando revisión de management o disposición final. Esta área se identificará como HOLD – DAMAGED MATERIAL. Cuando sea práctico, los empleados deben mover el material dañado a esta área para mantenerlo físicamente separado del inventario vendible normal. El material en esta área NO ESTÁ DISPONIBLE PARA VENTA salvo que un manager posteriormente apruebe su regreso al inventario vendible. Cuando sea práctico, identifique el material con información útil como SKU, cantidad, número de pedido relacionado, fecha y razón por la que está retenido.'
+      ],
+      [
+        'Daño de proveedor / PO',
+        'No reciba un envío dañado como si todo hubiera llegado correctamente. Fotografíe y aísle material afectado, identifique SKU y cantidad, conserve empaque relevante cuando sea práctico, notifique al Director of Procurement, proporcione PO/información de respaldo y siga sus instrucciones para QOBLEX receiving.'
+      ],
+      [
+        'Documentación de reclamaciones',
+        'Procurement puede manejar reclamaciones usando fotografías, email, información de PO, packing slips, Bills of Lading, comunicación con proveedores, referencias, créditos, información de reemplazo y otros registros apropiados. No se requiere formulario separado. Conserve material hasta que Procurement autorice su disposición.'
+      ],
+      [
+        'Daño de transferencia',
+        'Fotografíe y documente material afectado, notifique al Warehouse Manager de origen y al Inventory Manager y siga el procedimiento de Inventory Transfer. No asigne culpa automáticamente ni simplemente absorba la pérdida.'
+      ],
+      [
+        'Daño causado en almacén',
+        'Daño accidental debe reportarse inmediatamente. Daño identificado → fotografiado → aislado → reportado → disposición determinada → inventario corregido si está autorizado. Los accidentes pueden ocurrir; ocultar o no reportar conscientemente daño conocido es un asunto separado de cumplimiento.'
+      ],
+      [
+        'Order picking',
+        'No entregue conscientemente material dañado a un cliente solo para completar un pedido. Sepárelo, revise inventario de reemplazo, notifique al Warehouse Manager, documente y mueva material dañado a HOLD.'
+      ],
+      [
+        'Daño durante entrega',
+        'Deje de manipular material afectado, fotografíelo, notifique a la sucursal, no haga promesas no autorizadas al cliente, documente en el papeleo de entrega existente y siga instrucciones y Delivery Procedure SOP.'
+      ],
+      [
+        'Daño reportado por cliente',
+        'Obtenga detalles del cliente/pedido/producto, descripción, fotos cuando estén disponibles, pickup/delivery y cuándo se descubrió. No asuma inmediatamente responsabilidad de la compañía o cliente. Management revisa los hechos y sigue Returns SOP cuando se necesita resolución.'
+      ],
+      [
+        'Disposición final',
+        'Posibles resultados incluyen return to vendor, vendor credit, replacement, freight claim, regreso aprobado a inventario vendible, discount/as-is sale, uso de compañía, disposal o customer resolution. Warehouse employees y Sales Associates no determinan disposición final independientemente salvo autorización.'
+      ],
+      [
+        'Ajustes de inventario',
+        'El daño físico NO autoriza automáticamente un inventory adjustment. Ajuste solo después de determinar disposición y obtener autorización. Siga Inventory Adjustments & IAL.'
+      ],
+      [
+        'Escalamiento',
+        'Escale inmediatamente pérdidas significativas, daño repetido de vendor/carrier, daño a propiedad del cliente, accidentes vehiculares, lesiones, responsabilidad disputada, sospecha de daño intencional, grandes discrepancias y peligros de seguridad.'
+      ],
+      [
+        'SOPs relacionados',
+        'Receiving Purchase Orders; Receiving Inventory Transfers; Creating & Dispatching Inventory Transfers; Inventory Adjustments & IAL; Order Picking SOP; Delivery Procedure SOP; Customer Returns, Store Credits & Refund Authorization SOP.'
+      ]
+    ]
+  },
+
+  quiz: {
+    en: [
+      [
+        'What is the correct workflow when damaged inventory is discovered?',
+        [
+          'Adjust → discard → report',
+          'Identify → photograph → isolate → report → determine disposition → correct inventory if authorized',
+          'Sell → document → adjust',
+          'Photograph → discard'
+        ],
+        1
+      ],
+      [
+        'Where should damaged material awaiting a decision normally be placed?',
+        [
+          'Normal rack',
+          'Customer pickup',
+          'HOLD – DAMAGED MATERIAL',
+          'Trash'
+        ],
+        2
+      ],
+      [
+        'What should happen when an employee accidentally damages material?',
+        [
+          'Hide minor damage',
+          'Adjust and dispose immediately',
+          'Report it immediately so it can be documented, isolated, and resolved',
+          'Wait to see if anyone notices'
+        ],
+        2
+      ],
+      [
+        'Does physical damage automatically authorize an inventory adjustment?',
+        [
+          'Yes with photos',
+          'Yes if a manager finds it',
+          'No; disposition and authorization come first',
+          'Yes if unsellable'
+        ],
+        2
+      ],
+      [
+        'What is required for vendor damage claims?',
+        [
+          'A new damage form every time',
+          'No documentation',
+          'Appropriate supporting records such as photos, emails, PO/shipping information and resolution records; no separate claim form is required',
+          'Warehouse employees negotiate directly with vendor'
+        ],
+        2
+      ]
+    ],
+
+    es: [
+      [
+        '¿Cuál es el flujo correcto al descubrir inventario dañado?',
+        [
+          'Ajustar → desechar → reportar',
+          'Identificar → fotografiar → aislar → reportar → determinar disposición → corregir inventario si está autorizado',
+          'Vender → documentar → ajustar',
+          'Fotografiar → desechar'
+        ],
+        1
+      ],
+      [
+        '¿Dónde debe colocarse material dañado esperando decisión?',
+        [
+          'Rack normal',
+          'Customer pickup',
+          'HOLD – DAMAGED MATERIAL',
+          'Basura'
+        ],
+        2
+      ],
+      [
+        '¿Qué debe pasar si un empleado daña material accidentalmente?',
+        [
+          'Ocultarlo',
+          'Ajustar y desechar',
+          'Reportarlo inmediatamente para documentarlo, aislarlo y resolverlo',
+          'Esperar'
+        ],
+        2
+      ],
+      [
+        '¿El daño físico autoriza automáticamente un inventory adjustment?',
+        [
+          'Sí con fotos',
+          'Sí si manager lo encuentra',
+          'No; primero disposición y autorización',
+          'Sí si no se vende'
+        ],
+        2
+      ],
+      [
+        '¿Qué se requiere para reclamaciones de proveedor?',
+        [
+          'Formulario nuevo siempre',
+          'Ninguna documentación',
+          'Registros apropiados como fotos, emails, PO/shipping information y resolución; no se requiere formulario separado',
+          'Warehouse employees negocian directamente'
+        ],
+        2
+      ]
+    ]
+  },
+
+  practical: {
+    en: [
+      'Demonstrate the identify → photograph → isolate → report workflow.',
+      'Identify useful photos and information for a damaged vendor shipment.',
+      'Place sample material into HOLD – DAMAGED MATERIAL and explain why it cannot be sold while awaiting disposition.',
+      'Explain responses to damage during PO receiving, transfer receiving, order picking, and delivery.',
+      'Explain immediate reporting of accidental damage and why concealment is a separate compliance issue.',
+      'Explain why damage does not automatically authorize an inventory adjustment.',
+      'Explain what employees may and may not promise customers.',
+      'Identify when Procurement, Inventory Manager, Branch Manager, or another manager must be involved.'
+    ],
+
+    es: [
+      'Demuestre el flujo identificar → fotografiar → aislar → reportar.',
+      'Identifique fotos e información útiles para un envío dañado.',
+      'Coloque material en HOLD – DAMAGED MATERIAL y explique por qué no puede venderse mientras espera disposición.',
+      'Explique respuestas a daño durante PO receiving, transfer receiving, order picking y delivery.',
+      'Explique reporte inmediato de daño accidental y por qué ocultarlo es un asunto separado.',
+      'Explique por qué daño no autoriza automáticamente inventory adjustment.',
+      'Explique qué pueden y no pueden prometer los empleados.',
+      'Identifique cuándo deben involucrarse Procurement, Inventory Manager, Branch Manager u otro manager.'
+    ]
+  },
+
+  source: 'Bargain Build, Inc. SOP v1 — Damaged Material & Claims SOP'
+});
